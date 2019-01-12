@@ -77,6 +77,10 @@ a:visited {
   text-decoration: underline;
 }
 
+a img:hover {
+  opacity: 0.8;
+}
+
 #index {
   background-image: url(../images/bg-index.jpg);
   background-repeat: no-repeat;
@@ -157,6 +161,41 @@ a:visited {
   background-color: #ffffff;
   margin-top: 220px;
   padding: 35px 0;
+}
+
+#portfolio {
+  background-image: url(../images/bg-portfolio.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+.main {
+  width: 700px;
+  margin: 0 10px;
+  float: left;
+}
+
+.sidebar {
+  width: 200px;
+  margin: 0 10px 0 30px;
+  float: right;
+  font-family: 'Roboto Condensed',
+    sans-serif;
+}
+
+.sidebar h2 {
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.sidebar ul a {
+  color: #333333;
 }
 
 .clearfix:after {
