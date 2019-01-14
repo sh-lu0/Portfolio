@@ -37,15 +37,13 @@ h6 {
 }
 
 h1 {
-  font-family: 'Roboto Condensed',
-    sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 36px;
   border-bottom: 1px solid #cccccc;
 }
 
 h2 {
-  font-family: 'Roboto Condensed',
-    sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 24px;
 }
 
@@ -93,8 +91,7 @@ a img:hover {
   font-size: 100px;
   line-height: 1;
   color: #ffffff;
-  font-family: 'Roboto Condensed',
-    sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   margin-bottom: 50px;
   border: none;
 }
@@ -119,7 +116,6 @@ a img:hover {
   background-color: transparent;
   margin-top: 0;
   padding: 0;
-
 }
 
 #about {
@@ -197,6 +193,105 @@ a img:hover {
   background-size: 100% auto;
 }
 
+#contact {
+  background-image: url(../images/bg-contact.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#contact .access table {
+  float: left;
+}
+
+#contact .access th,
+#contact .access td {
+  text-align: left;
+  vertical-align: top;
+  line-height: 2.5;
+}
+
+#contact .access td {
+  padding-left: 30px;
+}
+
+#contact .access iframe {
+  width: 460px;
+  float: right;
+}
+
+#contact .form {
+  background-color: #eaeaea;
+  padding: 30px 50px;
+}
+
+#contact .form dl dt {
+  width: 165px;
+  padding: 10px 0;
+  float: left;
+  clear: both;
+}
+
+#contact .form dl dd {
+  padding: 10px 0;
+}
+
+#contact .form .name {
+  width: 240px;
+  height: 30px;
+}
+
+#contact .form .email {
+  width: 300px;
+  height: 30px;
+}
+
+#contact .form .tell {
+  width: 240px;
+  height: 30px;
+}
+
+#contact .form .type {
+  width: 180px;
+  height: 30px;
+}
+
+#contact .form .message {
+  width: 660px;
+  height: 150px;
+}
+
+#contact .form button {
+  background-color: #009cd3;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 120px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 3px solid #009cd3;
+  margin-left: 165px;
+}
+
+#contact .form button:hover {
+  background-color: #ffffff;
+  color: #009cd3;
+  cursor: pointer;
+}
+
+#contact .form .required:after {
+  content: '*';
+  color: #ff0000;
+}
+
+#contact .form .attention {
+  margin: 20px 0 0 165px;
+}
+
 .main {
   width: 700px;
   margin: 0 10px;
@@ -207,8 +302,7 @@ a img:hover {
   width: 200px;
   margin: 0 10px 0 30px;
   float: right;
-  font-family: 'Roboto Condensed',
-    sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .sidebar h2 {
@@ -225,13 +319,13 @@ a img:hover {
 }
 
 .clearfix:after {
-  content: "";
+  content: '';
   display: block;
   clear: both;
 }
 
 .icon:before {
-  content: "";
+  content: '';
   padding-right: 10px;
   border-left: 7px solid #9cb4a4;
 }
@@ -245,8 +339,7 @@ a img:hover {
   background-color: #009cd3;
   color: #ffffff;
   font-size: 20px;
-  font-family: 'Roboto Condensed',
-    sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   width: 185px;
   display: block;
   text-align: center;
@@ -277,8 +370,7 @@ a img:hover {
   margin: 0 20px;
   font-size: 20px;
   list-style: none;
-  font-family: 'Roboto Condensed',
-    sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .global-nav li a {
